@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+nav{
+    height:7vh;
+    width:100%;
+    background-color: whitek;
+    color:white;
+    text-align: center;
+    background-color: #1B1212;
+}
+nav h1{
+    padding-top: 1.4vh;
+}
+.page1{
+    height: 93vh;
+    width:100vw;
+    color:white;
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-evenly ;
+    flex-direction: column;
+
+}
+.page1 h1{
+    font-size: 8vh;
+}
+#text2{
+    height:5vh;
+    color:whitek;
+    background-color: black;
+    width:55%;
+}
+#two{
+    
+}
+#button{
+    border-radius: 5px;
+    height:6vh;
+    width:10vw;
+    background-color: pink;
+    color:white;
+    margin-right: 5vh;
+}
+#button:hover{
+    background-color:whitesmoke;
+    color:pink;
+}
+#utube{
+    height:5vh;
+    width:10vw;
+}
+#submit{
+    margin-top: -4vh;
+    height:5vh;
+    width:10vw;
+}
